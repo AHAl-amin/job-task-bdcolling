@@ -2,6 +2,7 @@
 
 import './App.css'
 import Banner from './components/Banner'
+import Community from './components/Community'
 // import Navber from './components/Navber'
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
      
       {/* <Navber></Navber> */}
      <Banner></Banner>
+     <Community></Community>
     </>
   )
 }

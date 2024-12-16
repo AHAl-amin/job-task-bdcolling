@@ -4,6 +4,7 @@ import './App.css'
 import Banner from './components/Banner'
 import Community from './components/Community'
 import Faguestion from './components/Faguestion'
+import Footer from './components/Footer'
 import Perfect from './components/Perfect'
 // import Navber from './components/Navber'
 function App() {
@@ -19,6 +20,7 @@ function App() {
      <Community></Community>
      <Perfect></Perfect>
      <Faguestion></Faguestion>
+     <Footer></Footer>
 
     </div>
     </>

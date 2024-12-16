@@ -16,7 +16,7 @@ const Community = () => {
             <div className="border-2 border-blue-500 w-10 rounded-lg mb-2">
 
             </div>
-            <h1 className="text-4xl font-bold ">
+            <h1 className="md:text-4xl text-3xl font-bold ">
               Your Community for Women Ready to Go <br /> Abroad
             </h1>
             <p className="py-3">

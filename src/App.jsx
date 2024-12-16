@@ -7,6 +7,7 @@ import Community from './components/Community'
 import Faguestion from './components/Faguestion'
 import Footer from './components/Footer'
 import Perfect from './components/Perfect'
+import Testimonials from './components/Testimonials'
 import Work from './components/Work'
 // import Navber from './components/Navber'
 function App() {
@@ -23,6 +24,7 @@ function App() {
      <Perfect></Perfect>
      <Chooce></Chooce>
      <Work></Work>
+     <Testimonials></Testimonials>
      <Faguestion></Faguestion>
      <Footer></Footer>
 

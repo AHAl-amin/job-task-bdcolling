@@ -13,7 +13,7 @@ const Community = () => {
             />
           </div>
           <div className="flex-1 text-left  ">
-            <div className="border-2 border-blue-500 w-10 rounded-2 mb-2">
+            <div className="border-2 border-blue-500 w-10 rounded-lg mb-2">
 
             </div>
             <h1 className="text-4xl font-bold ">

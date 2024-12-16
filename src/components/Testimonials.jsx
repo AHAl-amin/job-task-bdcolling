@@ -4,7 +4,7 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
 import { IoIosStarOutline } from "react-icons/io";
-
+import { Tilt } from "react-tilt";
 
 const Testimonials = () => {
   return (
@@ -21,47 +21,46 @@ const Testimonials = () => {
         experiencing life abroad, and making the most of every opportunity.
       </p>
       <div className="bg-white max-w-5xl mx-auto flex md:flex-row flex-col-reverse rounded-lg  ">
-        <div className="bg-blue-500 md:w-2/5 w-full text-white text-left rounded-l-lg p-10">
-          <div className="flex justify-between">
-          <img src="https://i.ibb.co.com/84dbpd0/image.png" alt="" />
-          <div className="flex items-center  ">
-          <IoIosStarOutline className="mr-2 text-2xl"/>
-          <p>5.0</p>
+          <div className="md:w-2/5 w-full ">
+        <Tilt>
+            <div className="bg-blue-500  text-white text-left rounded-l-lg p-10 ">
+              <div className="flex justify-between">
+                <img src="https://i.ibb.co.com/84dbpd0/image.png" alt="" />
+                <div className="flex items-center  ">
+                  <IoIosStarOutline className="mr-2 text-2xl" />
+                  <p>5.0</p>
+                </div>
+              </div>
+              <h1 className="font-semibold text-2xl">Sarah Thompson</h1>
+              <div className="text-gray-100 text-[14px]">
+                <p>Teacher • Non - smoker • Married</p>
+                <p>Silom, Bangkok</p>
+                <p> Dec 3.8</p>
+              </div>
+            </div>
+        </Tilt>
           </div>
-          
-          </div>
-          <h1 className="font-semibold text-2xl">Sarah Thompson</h1>
-          <div className="text-gray-100 text-[14px]">
-          <p>Teacher • Non - smoker • Married</p>
-          <p>Silom, Bangkok</p>
-          <p> Dec 3.8</p>
-          </div>
-        </div>
         <div className="w-3/5 ">
           <div className="flex justify-end py-4 mr-2">
             <button className="mr-2 text-blue-500 border px-3 py-1 rounded-lg">
-
-            <FaArrowLeftLong/>
+              <FaArrowLeftLong />
             </button>
             <button className="mr-2 text-blue-500 border px-3 py-1 rounded-lg">
-
-            <FaArrowRightLong/>
+              <FaArrowRightLong />
             </button>
-
           </div>
           <div className="">
-          <p className="text-gray-400 md:p-10 p-5 text-left ">
-           <div>
-           <RiDoubleQuotesL/>
-           </div>
-            Our smart developers build innovative, efficient, and high-
-            performance solutions. efficient, and high- performance solutions.
-            efficient, and high- performance solutions.
-          <div className="flex justify-end">
-          <RiDoubleQuotesR />
-          </div>
-          
-          </p>
+            <p className="text-gray-400 md:p-10 p-5 text-left ">
+              <div>
+                <RiDoubleQuotesL />
+              </div>
+              Our smart developers build innovative, efficient, and high-
+              performance solutions. efficient, and high- performance solutions.
+              efficient, and high- performance solutions.
+              <div className="flex justify-end">
+                <RiDoubleQuotesR />
+              </div>
+            </p>
           </div>
         </div>
       </div>

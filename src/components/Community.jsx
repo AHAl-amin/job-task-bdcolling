@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const Community = () => {
   return (
     <div>
-      <div className="hero  mt-10 md:mt-52 max-w-5xl mx-auto">
+      <div className="hero  mt-10 md:mt-52 mb-20 max-w-5xl mx-auto">
         <div className="  hero-content flex-col lg:flex-row">
           <div className="flex-1 bg-gray-50 rounded-2xl flex justify-center">
             <img

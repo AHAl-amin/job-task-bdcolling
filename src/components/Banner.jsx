@@ -32,7 +32,7 @@ const banner = () => {
         </div>
         {/* extra div */}
 
-       <div className="bg-white absolute flex bottom-[-150px] rounded-lg p-4 w-4/5 justify-between ">
+       <div className="md:bg-white absolute flex lg:bottom-[-150px] md:bottom-[-180px] rounded-lg p-4 w-4/5 justify-between ">
        <div className=" hidden sm:hidden md:block lg:block">
           <div><img src="https://i.ibb.co.com/jwB7XLD/freepik-Character-inject-3.png" alt="" /></div>
           <div className="text-left mt-6">

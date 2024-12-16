@@ -6,7 +6,8 @@ import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className=" bg-white py-16 ">
+    <div>
+      <div className=" bg-white py-16 ">
       <div className="flex flex-col md:flex-row justify-between max-w-5xl mx-auto text-left items-center  ">
         <div className="md:w-1/2 px-3 space-y-4">
           <img
@@ -61,6 +62,7 @@ const Footer = () => {
       </div>
         <div className="border-2 max-w-5xl mx-auto md:mt-4 mt-2 "></div>
         <p className="text-gray-500 p-2 text-right max-w-5xl mx-auto text-[14px]">© [2024] Ash and Fire. All Rights Reserved.</p>
+    </div>
     </div>
   );
 };

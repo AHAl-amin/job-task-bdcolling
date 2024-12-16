@@ -2,6 +2,7 @@
 
 import './App.css'
 import Banner from './components/Banner'
+import Chooce from './components/Chooce'
 import Community from './components/Community'
 import Faguestion from './components/Faguestion'
 import Footer from './components/Footer'
@@ -19,6 +20,7 @@ function App() {
     <Banner></Banner>
      <Community></Community>
      <Perfect></Perfect>
+     <Chooce></Chooce>
      <Faguestion></Faguestion>
      <Footer></Footer>
 

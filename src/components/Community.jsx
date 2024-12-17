@@ -5,8 +5,8 @@ const Community = () => {
   return (
     <div>
       <div className="hero  mt-10 md:mt-52 mb-20 max-w-5xl mx-auto">
-        <div className="  hero-content flex-col lg:flex-row">
-          <div className="flex-1 bg-gray-50 rounded-2xl flex justify-center">
+        <div className=" gap-10 hero-content flex-col lg:flex-row">
+          <div className="flex-1 bg-gray-50 rounded-2xl flex justify-center ">
             <img
               src="https://i.ibb.co.com/SRVRNZX/imgpsh-fullsize-anim-1.png"
               className="w-[300px] md:py-16 py-10 px-2 rounded-lg"

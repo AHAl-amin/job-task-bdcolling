@@ -11,4 +11,4 @@ Resources:
 -[daisy UI](https://daisyui.com/)
 -[imgbb](https://imgbb.com/)
 -[React tilt](https://www.npmjs.com/package/react-tilt)
--[Instructions for cloning and running the project locally](npm run build)
+-[Instructions for cloning and running the project locally](npm run dev)
